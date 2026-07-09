@@ -1,0 +1,18 @@
+# Sample network topology for NetRoute Engine.
+# LINK <nodeA> <nodeB> <weight>   -- a bidirectional link with a cost
+# ROUTE <prefix>/<len> <nextHop> [metric]  -- a routing table entry
+
+# --- Topology -----------------------------------------------------------
+LINK RouterA RouterB 4
+LINK RouterA RouterC 1
+LINK RouterC RouterB 1
+LINK RouterB RouterD 3
+LINK RouterC RouterD 6
+LINK RouterD RouterE 2
+
+# --- Routing table (longest-prefix-match) --------------------------------
+ROUTE 0.0.0.0/0        RouterA   10
+ROUTE 10.0.0.0/8       RouterB   1
+ROUTE 10.1.0.0/16      RouterC   1
+ROUTE 192.168.1.0/24   RouterD   1
+ROUTE 192.168.1.128/25 RouterE   1
