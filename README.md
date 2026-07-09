@@ -3,8 +3,6 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Tests](https://img.shields.io/badge/tests-37%20passing-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
-![Warnings](https://img.shields.io/badge/warnings-zero%20(--Wall%20--Wextra%20--Wpedantic)-brightgreen.svg)
 
 A command-line network routing simulator implementing the core data
 structures and algorithms behind real router forwarding planes and
