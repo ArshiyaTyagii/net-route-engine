@@ -1,7 +1,6 @@
 # NetRoute Engine
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Tests](https://img.shields.io/badge/tests-37%20passing-brightgreen.svg)
 
 A command-line network routing simulator implementing the core data
